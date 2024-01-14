@@ -1,0 +1,377 @@
+:root {
+    --main-bg-section-color: #1E171B;
+  }
+
+
+.pref{
+    background-color: #1E171B;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.pref-link a{
+    /* background-color: transparent;
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 20px; */
+
+    background-color: transparent;
+    display: block;
+    padding: 7px;
+    margin-bottom: 6px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+
+ 
+
+.pref-link.active{
+    background-color: #DC3C01;
+    border: none;
+    border-radius: 4px;
+}
+
+.pref-link.active:hover{
+    background-color: white;
+    color: #DC3C01;
+    border: none;
+    /* border-radius: 20px; */
+    border-radius: 4px;
+}
+
+
+.pref-link:hover  {
+    background-color: white;
+    color: #DC3C01;
+    border: none;
+    /* border-radius: 20px; */
+    border-radius: 4px;
+}
+.pref-link:hover a{
+    color: #DC3C01; 
+}
+
+
+/* short show of cart choosen in footer  */
+.popup-addedtocart_actions .btn--grey:hover , 
+.popup-addedtocart_actions .btn--invert:hover
+{
+    background-color: var(--main-bg-section-color);
+    color:#fff !important;
+}
+
+
+/* cart item style  */
+.cart-table-prd{
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+
+.prd-big-circle-labels .label-sale{
+    background-color: #DC3C01 !important; 
+    color: white;
+}
+
+
+
+.label-sale{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sale-text{
+    font-size: 12px !important;
+    font-weight: normal;
+}
+
+/* cart page style  */
+
+.footer-shop-info,
+.footer-shop-info .row,
+.panel-heading { 
+      /* background: #23232D !important; */
+      /* background-color: transparent; */
+
+      background: #1E171B !important;
+     
+  }
+
+
+
+  .quantity-choice {
+    width: fit-content;
+    /* border: 1px solid #ecedf6 !important; */
+    border-radius: 4.5px;
+    color: #fff !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0px 13px;
+    border: none;
+  }
+
+  .qty.qty-changer > * {
+    background-color: transparent;
+  }
+
+.btn, 
+button{
+    /* border-radius: 12px !important; */
+    border-radius: 1.5em !important;
+}
+
+/* style footer advertisaor   */
+.footer-shop-info{
+    background-color: transparent !important;
+}
+.text-icn-block-footer .icn{
+    color: #dc3c01;
+    font-size: 44px;
+
+}
+
+
+
+/* style slider view show in card  */
+
+/* .fancybox-container *{ */
+  .modal-info-content{
+    text-align: right;
+}
+
+/* style card panel  */
+.card-accordion .panel-heading{
+    background-color: #DC3C01;
+    color: white;
+    border-radius: 4px;
+}
+
+.card-accordion .panel-body{
+background-color: transparent;
+}
+
+.card-accordion .tag-input{
+  background: transparent !important;
+  color: white;
+  border-bottom: 1px solid #DC3C01;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.tags-list li a{
+  color: black;
+
+}
+.post-prw-text{
+  padding: 15px 10px;
+}
+
+
+.post-full .post-img img{
+  max-height: 95.98%;
+}
+
+
+/* custom blog  */
+
+.post-prws-listing > * + * {
+  margin-top: 30px;
+  height: 255px;
+  overflow: hidden;
+}
+.vert-margin-middle{
+  height: 100%;
+}
+.post-prw-img {
+  height: 100%;
+}
+
+
+
+.card-accordion .tag-input:focus{
+  border: 1px solid #DC3C01;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background-color: transparent;
+}
+
+
+/* Style the list of breadcrumb in card page  */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #1E171B;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  /* padding: 8px;
+  color: black;
+  content: "/\00a0"; */
+
+}
+  
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+ul.breadcrumb li a.active{
+  color: #DC3C01;
+  text-decoration: underline;
+}
+  
+  /* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #DC3C01;
+  text-decoration: underline;
+}
+
+ul.breadcrumb li .chevron{
+  padding-left: 10px ;
+  padding-right: 10px;
+
+}
+
+/* style the main menu in mobile  */
+.mobilemenu ul.nav li a{
+  display: flex;
+}
+.mobilemenu ul.nav li .arrow{
+  display: block;
+  margin: 0px 3px;
+}
+
+body.equal-height .prd-img:not(.prd-img--noequal) img{
+  /* border-radius: 1.5rem !important; */
+  border-radius: 16px;
+}
+
+a.image-hover-scale{
+  /* border-radius: 1.5rem; */
+  border-radius: 16px;
+}
+
+/* blog style for border radius  */
+/* .post-prws-carousel--single .slick-slide .post-prw-text{
+  padding: 0;
+} */
+.title-with-arrows:not(.title-with-arrows--center) > :last-child{
+  margin-left: auto;
+  margin-right: auto;
+}
+ /* .post-prw-img{
+  border-radius: 0px 16px 16px 0px;
+}
+ .post-prw-text{
+  border-radius: 16px 0px 0px 16px;
+} */
+
+.related-posts .post-prws{
+  background-color: transparent;
+}
+
+/* common question border radius  */
+.footer-shop-info, .footer-shop-info .row, .panel-heading{
+  border-radius: 6px;
+}
+
+/* cart border radius  */
+.card {
+  border-radius: 16px;
+}
+
+.page-content{
+
+  width: 98%;
+  margin: auto;
+
+}
+
+/* main sliders */
+
+.slick-initialized .bnslider-image, .slick-initialized .bnslider-image-mobile, .no-js .bnslider-image{
+  /* border-radius: 25px; */
+  border-radius: 16px;
+}
+
+@media (max-width: 575px)
+{
+  .bnslider-text-content .bnslider-text--xl{
+    font-size: 0.6em;
+  }
+  .bnslider-text-content .bnslider-text--sm{
+    font-size: 0.3em;
+  }
+  .btn--lg{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 10px 18px;
+  }
+
+  .bnslider-arrows .slick-prev::before, .bnslider-arrows .slick-next::before {
+    font-size: 12px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.slick-dots li.slick-active button{
+  border-radius: 50% !important;
+  background-color: #dc3c01 !important;
+}
+
+
+ul.breadcrumb li .chevron {
+  font-size: 12px;
+}
+
+/* my adv custom styline  */
+
+.my_adv_custom_style{
+  border-radius: 8px;
+
+}
+
+/* setting of input  */
+
+input[type=text], input[type=email], input[type=password], textarea,.select-wrapper, .select-wrapper select, .select-wrapper-sm select , .form-control{
+  /* border-radius: 16px !important; */
+  border-radius: 1.5em !important;
+}
+
+
+/* cart default component style  */
+
+.default_custom_price{
+  border: 1px solid #261F23;
+  padding: 5px 10px;
+  border-radius: 16px;
+  background: #261F23;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+}
+
+
+
+/* featured style  */
+
+.custom-header-color{
+  color: #dc3c01 !important;
+}

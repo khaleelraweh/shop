@@ -1,0 +1,90 @@
+:root{
+    --main_color: #0D85CF;
+}
+
+
+.picker__select--month,
+.picker__select--year {
+    padding: 0 !important;
+}
+
+.picker__list {
+    list-style-type: none;
+}
+
+.card-naving h3{
+    color: #73879C !important;
+    font-family: 'DroidKufi-Regular', Arial, "Droid Sans", sans-serif;
+    font-size: 25px;
+    margin-bottom: 6px;
+
+}
+.card-naving ul{
+    padding: 0;
+    margin: 0;
+}
+.card-naving ul li,
+.card-naving ul li a{
+    color: #73879C !important;
+    font-family: 'DroidKufi-Regular', Arial, "Droid Sans", sans-serif;
+    font-size: 16px;
+}
+
+.card-naving ul li a:hover{
+    color:var(--main_color) !important;
+}
+
+.card-naving .chevron{
+    margin-right: 3px;
+    margin-left: 4px;
+    font-size: 12px;
+
+}
+
+@media(max-width:750px){
+    .card-naving h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    
+    }
+ 
+    .card-naving ul li,
+    .card-naving ul li a{
+        font-size: 16px;
+    }
+    
+    .card-naving ul li a:hover{
+        color:var(--main_color) !important;
+    }
+    
+    .card-naving .chevron{
+        margin-right: 3px;
+        margin-left: 4px;
+        font-size: 12px;
+    
+    }
+
+    .card-header a{
+        font-size: 12px;
+    }
+}
+
+
+.require.red {
+    color: red;
+}
+
+/* for image show  */
+.file-preview{
+    overflow: hidden;
+}
+
+/* for pignation setting */
+
+@media (max-width:560px
+    /* write what you need, for me it's 560px */
+) {
+    ul.pagination li:not(.show-mobile) {
+        display: none;
+    }
+}
